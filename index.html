@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chocolate Cake Recipe</title>
+    <meta charset="UTF-8">
+    <!-- Inline, Internal and external stylesheets
+        id is for one element only if we use id then style should have # p#idName
+        class is for multiple elements and we use . to define class like h1.className
+        if same style for multiple tags then we can give , between different tags
+        if you want to give same id for multiple elements and use same style then just #idName
+        if you want to give same class for multiple element and use same style then just .className
+        you can add style to particular id and particulr class by selecting p#idName, p.className 
+    -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="category center">
+            <p class="category">Recipe</p>
+        </div>
+        <h1><b>Chocolate Cake</b></h1>
+        <div class="line"></div>
+        <div class="center">
+            <p class="description">Here is the fast and easy version of the classic <span
+                    style="color: rebeccapurple;">Chocolate
+                    Cake</span> recipe. Enjoy!
+            </p>
+        </div>
+        <div class="imgTable">
+            <img class="center info"
+                src="https://st4.depositphotos.com/10614052/25239/i/450/depositphotos_252391082-stock-photo-sweet-chocolate-cake-on-wooden.jpg">
+            <table class="info">
+                <tr>
+                    <th id=" category"><b>Difficulty</b></th>
+                    <th><b>Preparation</b></th>
+                    <th><b>Cooking</b></th>
+                    <th><b>Total time</b></th>
+                </tr>
+                <tr>
+                    <td>Easy</td>
+                    <td>10 Mins</td>
+                    <td>25 Mins</td>
+                    <td>35 Mins</td>
+                </tr>
+            </table>
+        </div>
+        <div class="over">
+            <div class="col1 col">
+                <h2>Ingedients</h2>
+                <div class="ing">
+                    <P>Black Chocolate: 200 gms</P>
+                    <P>Sugar: 150gms</P>
+                    <P>Butter: 200 gms</P>
+                    <P>Flour: 80 gms</P>
+                </div>
+            </div>
+            <div class="col2 col">
+                <h2>Instructions</h2>
+                <table class="ins">
+                    <tr>
+                        <td>
+                            <p class="number">1</p>
+                        </td>
+                        <td class="step">Melt the chocolate and butter together</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="number">2</p>
+                        </td>
+                        <td class="step">Mix the sugar, eggs and the flour</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="number">3</p>
+                        </td>
+                        <td class="step">Mix everything to get smooth dough</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="number">4</p>
+                        </td>
+                        <td class="step">Bake in the oven</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <h3>Total Cost</h3>
+    <!--
+        Table:
+        row: tr
+        header: th
+        cell: td
+        
+
+    -->
+    <table border="2">
+        <tr>
+            <th>Item</th>
+            <th>Price in $</th>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Flour</td>
+            <td>11.00</td>
+        </tr>
+        <tr>
+            <td>Sugar</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td>Butter</td>
+            <td>1.50</td>
+        </tr>
+    </table>
+    </div>
+</body>
+
+</html>
